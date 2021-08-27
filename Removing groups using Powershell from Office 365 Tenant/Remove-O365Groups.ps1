@@ -1,5 +1,6 @@
 ##
 # Medium URL: https://j0rt3g4.medium.com/removing-groups-using-powershell-from-office-365-tenant-b1f2e6de3179
+# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/master/Removing%20groups%20using%20Powershell%20from%20Office%20365%20Tenant/Remove-O365Groups.ps1
 
 #region ConfigureEnvironment
 
