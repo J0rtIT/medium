@@ -1,6 +1,7 @@
 ##
 # Medium URL: https://j0rt3g4.medium.com/unsplash-api-powershell-8214cfc4c87b
 # GITHUB Repository: https://github.com/j0rt3g4/medium/blob/d7e5069f02b31e4da27d240319802a8237129d61/OAuth%202.0%20with%20Powershell%20for%20Unsplash%20API%20bearer%C2%A0token/Do-Oauth20forUnsplash.ps1
+# YOUTUBE 
 
 
 [Cmdletbinding()]
@@ -117,6 +118,15 @@ else{
 	exit -1
 }
 
+#call with AccessKey
+#Invoke-WebRequest -Method Get "https://api.unsplash.com/photos/random?client_id=$global:AccessKey"
+
+#call with bearer token // Remember to change the bearer token value for your own.
+#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer hC7dNvBEVYyk_rV5DGfSR5L_Y7sTAu20qWF764GCZQU'} -Uri "https://api.unsplash.com/me"
+
+
+#convert data into PS Objects // Remember to change the bearer token value for your own.
+#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer hC7dNvBEVYyk_rV5DGfSR5L_Y7sTAu20qWF764GCZQU'} -Uri "https://api.unsplash.com/me" | select -ExpandProperty Content | ConvertFrom-Json
 
 Write-Host -ForegroundColor Magenta "Cleaning up"
 
