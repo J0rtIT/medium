@@ -122,11 +122,11 @@ else{
 #Invoke-WebRequest -Method Get "https://api.unsplash.com/photos/random?client_id=$global:AccessKey"
 
 #call with bearer token // Remember to change the bearer token value for your own.
-#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer hC7dNvBEVYyk_rV5DGfSR5L_Y7sTAu20qWF764GCZQU'} -Uri "https://api.unsplash.com/me"
+#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer BearerTokenHere'} -Uri "https://api.unsplash.com/me"
 
 
 #convert data into PS Objects // Remember to change the bearer token value for your own.
-#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer hC7dNvBEVYyk_rV5DGfSR5L_Y7sTAu20qWF764GCZQU'} -Uri "https://api.unsplash.com/me" | select -ExpandProperty Content | ConvertFrom-Json
+#Invoke-WebRequest -Method Get -Headers @{'Authorization'='Bearer BearerTokenHere'} -Uri "https://api.unsplash.com/me" | select -ExpandProperty Content | ConvertFrom-Json
 
 Write-Host -ForegroundColor Magenta "Cleaning up"
 
