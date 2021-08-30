@@ -1,6 +1,6 @@
 ##
 # Medium URL: https://j0rt3g4.medium.com/how-to-change-the-location-of-an-ms-o365-user-e55018fd9617
-# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/d7e5069f02b31e4da27d240319802a8237129d61/OAuth%202.0%20with%20Powershell%20for%20Unsplash%20API%20bearer%C2%A0token/Do-Oauth20forUnsplash.ps1
+# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/master/How%20to%20enable%20International%20and%20Domestic%20Calls%20for%20O365%20users%20if%20your%20live%20out%20of%20the%20US/Change-Location.ps1
 # YOUTUBE - Schedulled
 
 
