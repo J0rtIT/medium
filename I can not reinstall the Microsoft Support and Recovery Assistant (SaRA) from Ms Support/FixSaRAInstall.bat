@@ -1,0 +1,1 @@
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\SaRA" /v "SaraInstalled" /t REG_SZ /d "0" /f
