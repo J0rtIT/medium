@@ -1,4 +1,10 @@
-﻿[cmdletbinding()]
+﻿## Removing groups using Powershell from Office 365 Tenant
+# Medium URL: https://j0rt3g4.medium.com/microsoft-tasks-disallow-users-to-delete-tasks-they-dont-own-3e5241adb654
+# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/master/Removing%20groups%20using%20Powershell%20from%20Office%20365%20Tenant/Remove-O365Groups.ps1
+
+#requires -version 5.0
+
+[cmdletbinding()]
 Param(
     [Parameter(mandatory=$false,Position=0)]$Drive="E:\"
 )
