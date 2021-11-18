@@ -1,6 +1,6 @@
 ﻿## Removing groups using Powershell from Office 365 Tenant
-# Medium URL: https://j0rt3g4.medium.com/microsoft-tasks-disallow-users-to-delete-tasks-they-dont-own-3e5241adb654
-# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/d3e5c5ebb9492c508e625850d577b464e2e18e67/Get%20root%20and%20All%20Folder%20size%20within%20a%20drive%20on%20your%C2%A0computer/Get-FoldersSize.ps1
+# Medium URL: https://j0rt3g4.medium.com/know-how-series-get-root-and-all-folder-sizes-within-a-drive-on-your-computer-a524334e5de4
+# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/16fd9f25cd7223a406c196b5d91ddf591d031688/Get%20root%20and%20All%20Folder%20size%20within%20a%20drive%20on%20your%C2%A0computer/Get-FoldersSize.ps1
 # GIFT File : http://g.recordit.co/Q7BCvqMXBF.gif
 # RECORDIT : https://recordit.co/Q7BCvqMXBF
 # Youtube Video: https://youtu.be/DxxrQx9uWS4
