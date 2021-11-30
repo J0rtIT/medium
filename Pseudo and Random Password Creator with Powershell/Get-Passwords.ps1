@@ -1,4 +1,10 @@
-﻿[cmdletbinding(DefaultParameterSetName="default")]
+﻿##  Pseudo and random Password creator with Powershell
+# Medium URL:        https://j0rt3g4.medium.com/pseudo-and-random-password-creator-with-powershell-2796bd7b830b
+# GITHUB Repository: https://github.com/j0rt3g4/medium/blob/7daa2312cb0901b4f676d88e01c7bd7310c8b0de/Pseudo%20and%20Random%20Password%20Creator%20with%20Powershell/Get-Passwords.ps1
+# YOUTUBE            PENDING
+
+
+[cmdletbinding(DefaultParameterSetName="default")]
 param(
     #Password Number to be created at the same time (to do a sandwich with them), default a concat of 3 passwords
     [Parameter(Mandatory=$false,position=0)]$Npass=3,
